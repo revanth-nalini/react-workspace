@@ -1,0 +1,13 @@
+.result > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result_noData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30vh;
+}

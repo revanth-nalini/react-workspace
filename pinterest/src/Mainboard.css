@@ -1,0 +1,13 @@
+.mainboard__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh 2vw;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.mainboard__load > h4{
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}

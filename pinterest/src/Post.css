@@ -1,0 +1,21 @@
+.post{
+    position: relative;
+}
+
+.post > img{
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.post__desc{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    margin-left: 20px;
+    color: white;
+}
+

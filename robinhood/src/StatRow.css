@@ -1,0 +1,40 @@
+.statrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.statrow:hover{
+    background-color: #31363A;
+}
+
+.statrow__intro h1{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.statrow__intro p{
+    font-size: 12px;
+}
+
+.statrow__numbers{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.statrow__chart{
+    padding: 0 10px;
+}
+
+.statrow__price{
+    padding-bottom: 4px;
+}
+
+.statrow__percentage{
+    color: #5AC53B;
+}

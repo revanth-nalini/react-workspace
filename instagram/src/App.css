@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+}
+
+.app{
+  background-color: #fafafa;
+}
+
+.app__header{
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  object-fit: contain;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app__headerImage{
+  object-fit: contain;  /* keeps aspect-ratio(do not stretch) */
+}
+
+.app__search{
+  border: 1px solid #8e8e8e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.app__search > input{
+  border: 0;
+}
+
+.app__search > input:focus{
+  outline: 0;
+}
+
+.app__icons{
+  display: flex;
+}
+
+.app__iconsLeft .MuiSvgIcon-root{
+  margin-right: 8px;
+}
+
+.app__posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.app__postsRight{
+  margin-left: 20px;
+}
+
+.app__signup{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.app__posts{
+  display: flex;
+}
+
+.app_postsLeft{
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.app_postsRight{
+  padding: 20px 60px;
+  flex: 0.4;
+}
+
+.app_postsRight h3{
+  text-align: center;
+  position: sticky;
+  top: 25vh;
+}
+

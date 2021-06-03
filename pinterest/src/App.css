@@ -1,0 +1,8 @@
+.app__header{
+    flex: 1 1 auto;
+    height: 80px;
+    justify-content: center;
+    padding: 12px 4px 4px 16px;
+    box-sizing: border-box;
+    align-items: center;
+}
